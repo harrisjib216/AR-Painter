@@ -3,10 +3,9 @@
 AR Painter is a small and fun iOS app that can help you draw colorful
 lines (or shapes if you're brave enough) in augmented reality.
 
+## Preview
 
-## Screenshots
-
-<video src='Demo.mov' width=180/>
+![preview](demo.gif)
 
 ## Credits
 
