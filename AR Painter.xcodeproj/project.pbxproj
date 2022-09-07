@@ -11,18 +11,17 @@
 		3324126928C8F2B8008EBA68 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3324126828C8F2B8008EBA68 /* art.scnassets */; };
 		3324126B28C8F2B8008EBA68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324126A28C8F2B8008EBA68 /* ViewController.swift */; };
 		3324126E28C8F2B8008EBA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3324126C28C8F2B8008EBA68 /* Main.storyboard */; };
-		3324127028C8F2B9008EBA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3324126F28C8F2B9008EBA68 /* Assets.xcassets */; };
 		3324127328C8F2BA008EBA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3324127128C8F2BA008EBA68 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3324126328C8F2B8008EBA68 /* Stack and Crash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack and Crash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3324126328C8F2B8008EBA68 /* AR Painter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Painter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3324126628C8F2B8008EBA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3324126828C8F2B8008EBA68 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		3324126A28C8F2B8008EBA68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3324126D28C8F2B8008EBA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3324126F28C8F2B9008EBA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3324127228C8F2BA008EBA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3324127928C8FD73008EBA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +38,7 @@
 		3324125A28C8F2B8008EBA68 = {
 			isa = PBXGroup;
 			children = (
-				3324126528C8F2B8008EBA68 /* Stack and Crash */,
+				3324126528C8F2B8008EBA68 /* AR Painter */,
 				3324126428C8F2B8008EBA68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,30 +46,30 @@
 		3324126428C8F2B8008EBA68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3324126328C8F2B8008EBA68 /* Stack and Crash.app */,
+				3324126328C8F2B8008EBA68 /* AR Painter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3324126528C8F2B8008EBA68 /* Stack and Crash */ = {
+		3324126528C8F2B8008EBA68 /* AR Painter */ = {
 			isa = PBXGroup;
 			children = (
-				3324126628C8F2B8008EBA68 /* AppDelegate.swift */,
 				3324126828C8F2B8008EBA68 /* art.scnassets */,
+				3324127928C8FD73008EBA68 /* Assets.xcassets */,
+				3324126628C8F2B8008EBA68 /* AppDelegate.swift */,
 				3324126A28C8F2B8008EBA68 /* ViewController.swift */,
 				3324126C28C8F2B8008EBA68 /* Main.storyboard */,
-				3324126F28C8F2B9008EBA68 /* Assets.xcassets */,
 				3324127128C8F2BA008EBA68 /* LaunchScreen.storyboard */,
 			);
-			path = "Stack and Crash";
+			path = "AR Painter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3324126228C8F2B8008EBA68 /* Stack and Crash */ = {
+		3324126228C8F2B8008EBA68 /* AR Painter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3324127628C8F2BA008EBA68 /* Build configuration list for PBXNativeTarget "Stack and Crash" */;
+			buildConfigurationList = 3324127628C8F2BA008EBA68 /* Build configuration list for PBXNativeTarget "AR Painter" */;
 			buildPhases = (
 				3324125F28C8F2B8008EBA68 /* Sources */,
 				3324126028C8F2B8008EBA68 /* Frameworks */,
@@ -80,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Stack and Crash";
+			name = "AR Painter";
 			productName = "Stack and Crash";
-			productReference = 3324126328C8F2B8008EBA68 /* Stack and Crash.app */;
+			productReference = 3324126328C8F2B8008EBA68 /* AR Painter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3324125E28C8F2B8008EBA68 /* Build configuration list for PBXProject "Stack and Crash" */;
+			buildConfigurationList = 3324125E28C8F2B8008EBA68 /* Build configuration list for PBXProject "AR Painter" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3324126228C8F2B8008EBA68 /* Stack and Crash */,
+				3324126228C8F2B8008EBA68 /* AR Painter */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +124,6 @@
 			files = (
 				3324126928C8F2B8008EBA68 /* art.scnassets in Resources */,
 				3324127328C8F2BA008EBA68 /* LaunchScreen.storyboard in Resources */,
-				3324127028C8F2B9008EBA68 /* Assets.xcassets in Resources */,
 				3324126E28C8F2B8008EBA68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,8 +298,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thesocialinteractionllc.Stack-and-Crash";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thesocialinteractionllc.AR-Painter";
+				PRODUCT_NAME = "AR Painter";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,8 +328,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thesocialinteractionllc.Stack-and-Crash";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thesocialinteractionllc.AR-Painter";
+				PRODUCT_NAME = "AR Painter";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3324125E28C8F2B8008EBA68 /* Build configuration list for PBXProject "Stack and Crash" */ = {
+		3324125E28C8F2B8008EBA68 /* Build configuration list for PBXProject "AR Painter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3324127428C8F2BA008EBA68 /* Debug */,
@@ -350,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3324127628C8F2BA008EBA68 /* Build configuration list for PBXNativeTarget "Stack and Crash" */ = {
+		3324127628C8F2BA008EBA68 /* Build configuration list for PBXNativeTarget "AR Painter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3324127728C8F2BA008EBA68 /* Debug */,
